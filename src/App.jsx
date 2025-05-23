@@ -9,6 +9,15 @@ import Contact from "./components/Contact";
 function App() {
     return (
         <div className="app">
+            <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="video2-video"
+            >
+                <source src="/videos/video2.mp4" type="video/mp4" />
+            </video>
             <Navbar />
             <main>
                 <Home />
@@ -18,7 +27,10 @@ function App() {
                 <Contact />
             </main>
         </div>
-    );
+
+
+
+);
 }
 
 export default App;

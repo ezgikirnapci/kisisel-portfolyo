@@ -3,25 +3,28 @@ import "../styles/styles.css";
 
 const Home = () => {
     return (
-        <section className="home-section"
-                 style={{
-                     backgroundImage: "url('/images/indir.jpg')",
-                     backgroundSize: "%100 auto",
+        <section className="section-container" id="home" style={{
+            backgroundImage: "url('/images/son.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: "100vh",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: "column",
+            color: "black",
+            textAlign: "center",
+            textShadow: "2px 2px 10px black",
+            padding: "0 20px"
+        }}>
 
-                     backgroundPosition: "center center",
-                     height: "100vh",
-                     display: "flex",
-                     flexDirection: "column",
-                     justifyContent: "center",
-                     alignItems: "center",
-                     color: "white",
-                     textShadow: "2px 2px 10px black",
-                 }}>
+            <div className="overlay-content">
 
-                    <h1>Merhaba, ben Ezgi !</h1>
-                    <p>Kişisel portfolyo sayfama hoş geldiniz.</p>
-
+                <h1 className="fade-in">Merhaba, ben Ezgi!</h1>
+                <p className="fade-in">Kişisel portfolyo sayfama hoş geldiniz.</p>
+            </div>
         </section>
+
     );
 }
 

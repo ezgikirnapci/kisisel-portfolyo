@@ -3,7 +3,7 @@ import "../styles/styles.css"; // CSS dosyasını dahil ediyoruz
 
 const Contact = () => {
     return (
-        <section className="contact-section" id="contact">
+        <section className="section-container" id="contact">
             <div className="contact-container">
                 <h2>İletişim</h2>
                 <form className="contact-form">

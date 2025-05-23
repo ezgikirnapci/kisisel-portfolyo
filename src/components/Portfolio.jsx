@@ -15,7 +15,7 @@ const projects = [
     },
     {
         title: "Nesne Takip Sistemi",
-        description: "Python ve OpenCV ile gerçek zamanlı nesne takibi uygulaması.",
+        description: "C programlama dili ve OpenCV ile gerçek zamanlı nesne takibi uygulaması.",
         image: "/images/nesne.jpg"
     },
     {
@@ -27,7 +27,7 @@ const projects = [
 
 const Portfolio = () => {
     return (
-        <section className="portfolio-section" id="portfolio">
+        <section className="section-container" id="portfolio">
             <h2>Projelerim</h2>
             <div className="projects-grid">
                 {projects.map(({ title, description, image, github, live }, index) => (
